@@ -1,10 +1,5 @@
-import jenkins.model.*
-
-pipeline { 
-  agent any 
-  node('master') {
+freeStyleJob('hello') {
     stage('say-hello') {
         echo "Hello World from the jnlp-maven-client POD !"
     }
-  }
 }
