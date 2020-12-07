@@ -1,6 +1,6 @@
 package jobs.hello
 
-job('say-hello') {
+job('say-job') {
     steps {
         shell('echo Hello!')
     }

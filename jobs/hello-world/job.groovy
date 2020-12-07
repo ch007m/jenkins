@@ -1,6 +1,6 @@
 package jobs.hello
 
-job('say-hello-world') {
+job('say-job-world') {
     steps {
         shell('echo Say Hello World from JNLP client!')
     }
