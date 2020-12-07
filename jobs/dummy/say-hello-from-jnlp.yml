@@ -1,0 +1,6 @@
+- job:
+    name: 'dummy-test-say-hello'
+    description: 'Job to test if the jnlp docker image is working, can access the jenkins server and say Hello'
+    project-type: pipeline
+    dsl:
+      !include-raw: say-hello-from-jnlp.groovy
