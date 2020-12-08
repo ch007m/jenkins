@@ -1,3 +1,4 @@
+package jobs.hello_freestyleproject_job
 
 freeStyleJob('hello-dsl-job') {
     displayName('hello-dsl-job')

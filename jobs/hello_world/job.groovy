@@ -1,4 +1,4 @@
-package jobs.hello
+package jobs.hello_world
 
 job('say-job-world') {
     steps {
