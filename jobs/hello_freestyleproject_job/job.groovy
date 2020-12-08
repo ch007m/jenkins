@@ -1,5 +1,3 @@
-package jobs.hello_freestyleproject_job
-
 freeStyleJob('hello-dsl-job') {
     displayName('hello-dsl-job')
     description('Job DSL to say hello.')
